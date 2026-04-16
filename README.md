@@ -18,3 +18,11 @@ Communication between scripts is done by using Scriptable objects as events, whi
 
 One slightly annoying mistake in the game you might encounter is sometimes the raycast misses the interactable because of the angle of the player, tested this very late. I felt i could have done it with trigger enter instead.
 
+# Itch.io link (Playable in browser)
+
+https://danielebenezer.itch.io/yes-chef
+
+Password: 123
+
+
+
