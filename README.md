@@ -1,6 +1,8 @@
 # yes-chef
 Cooking game from Albequerque
 
+Unity version 6000.3.8f1 (LTS) was used for this project.
+
 # Architecture
 All the features from the document have been implemented. Nevermind the UI, its quite simple.
 
@@ -13,6 +15,10 @@ IInteractable interface with a "BaseStation" abstract class for all interactable
 They all have common functions that they share, so I did it this way.
 
 Communication between scripts is done by using Scriptable objects as events, which is designer-friendly.
+
+Config for the players , ingredient stats and types are done through scriptable objects for easier tweaking and testing.
+
+Awaitables are used instead of coroutines for tasks like chopping, cooking.
 
 # Could have done better
 
