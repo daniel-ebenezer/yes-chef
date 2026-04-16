@@ -1,2 +1,17 @@
 # yes-chef
-Cooking game with a twist
+Cooking game from Albequerque
+
+All the features from the document have been implemented. Nevermind the UI, its quite simple.
+
+I focused mostly on building a scalable project with loose coupling.
+
+The architecture is simple,
+
+IInteractable interface with a "BaseStation" abstract class for all interactables including the station, table, stove, fridge, trash.
+
+They all have common functions that they share, so I did it this way.
+
+Communication between scripts is done by using Scriptable objects as events, which is designer-friendly.
+
+One slightly annoying mistake in the game you might encounter is sometimes the raycast misses the interactable because of the angle of the player, tested this very late. I felt i could have done it with trigger enter instead.
+
