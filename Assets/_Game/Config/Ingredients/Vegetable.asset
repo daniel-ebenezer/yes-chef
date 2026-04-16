@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3163b213d4ca01a4eb5a371d19776d10, type: 3}
+  m_Name: Vegetable
+  m_EditorClassIdentifier: Assembly-CSharp::IngredientSO
+  ingredientName: Vegetable
+  type: 0
+  initialState: 0
+  preparationTime: 2
+  baseScore: 20
+  visualPrefab: {fileID: 1039530051132860146, guid: 65e001c1f1060864089fae287db3445a, type: 3}
+  rawMaterial: {fileID: 2100000, guid: b220be777a5f4204ca2fd7d85256c253, type: 2}
+  preparedMaterial: {fileID: 2100000, guid: cd66c77f5158e8a43ab5b375da8dad71, type: 2}
+  iconSprite: {fileID: 21300000, guid: 015de6d938ab1924a9560942dfaa78e5, type: 3}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3163b213d4ca01a4eb5a371d19776d10, type: 3}
+  m_Name: Cheese
+  m_EditorClassIdentifier: Assembly-CSharp::IngredientSO
+  ingredientName: Cheese
+  type: 2
+  initialState: 0
+  preparationTime: 0
+  baseScore: 10
+  visualPrefab: {fileID: 8539306471550486371, guid: bbdfd1366ca3cb64f8345002c2d74433, type: 3}
+  rawMaterial: {fileID: 2100000, guid: 740e2994ffc4d5f48af59dbd2c05f684, type: 2}
+  preparedMaterial: {fileID: 2100000, guid: 740e2994ffc4d5f48af59dbd2c05f684, type: 2}
+  iconSprite: {fileID: 21300000, guid: 97f77fb5fbfa59d4aaa641bd545fbac2, type: 3}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
