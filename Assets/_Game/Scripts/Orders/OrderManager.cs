@@ -110,6 +110,7 @@ public class OrderManager : MonoBehaviour
             highScore = currentScore;
             highScoreUpdatedChannel?.Raise(highScore);
             PlayerPrefs.SetInt("HighScore", highScore);
+            PlayerPrefs.Save();
         }
     }
 

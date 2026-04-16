@@ -62,6 +62,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowGameplayUI()
     {
+        highScoreText.text = "High Score : " + PlayerPrefs.GetInt("HighScore").ToString();
         startScreenPanel.SetActive(false);
         gameplayPanel.SetActive(true);
         gameOverPanel.SetActive(false);

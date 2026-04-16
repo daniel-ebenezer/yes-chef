@@ -1394,8 +1394,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CustomerWindow
   defaultPrompt: Interact
   windowIndex: 1
-  orderTitleText: {fileID: 0}
-  timerText: {fileID: 0}
   ingredientsContainer: {fileID: 1656425625}
   ingredientIconPrefab: {fileID: 9211352961897018544, guid: 16674f5b30891b04587a8a0374041b9d, type: 3}
   scoreValue: {fileID: 1021589141}
@@ -4045,56 +4043,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1429113555}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: RestartGame
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 949427890}
-        m_TargetAssemblyTypeName: OrderManager, Assembly-CSharp
-        m_MethodName: SpawnInitialOrders
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1070066666}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 92834877}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 855087864}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4319,6 +4269,7 @@ MonoBehaviour:
   vegetableSO: {fileID: 11400000, guid: 80fedbfaa4404d14a89faaaf699ae3ce, type: 2}
   cheeseSO: {fileID: 11400000, guid: 84ed81fa8ecfbb14e8339568ac12561c, type: 2}
   meatSO: {fileID: 11400000, guid: db70288a9ff8a144c82ccf0434a8c332, type: 2}
+  gamePausedEvent: {fileID: 11400000, guid: a43153cf00d25764d92e51f116197243, type: 2}
   isUIOpen: 0
   uiPanel: {fileID: 855087864}
 --- !u!1 &837421537
@@ -4525,8 +4476,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CustomerWindow
   defaultPrompt: Interact
   windowIndex: 2
-  orderTitleText: {fileID: 0}
-  timerText: {fileID: 0}
   ingredientsContainer: {fileID: 1696582082}
   ingredientIconPrefab: {fileID: 9211352961897018544, guid: 16674f5b30891b04587a8a0374041b9d, type: 3}
   scoreValue: {fileID: 1578436363}
@@ -5126,9 +5075,6 @@ MonoBehaviour:
   interactionPromptText: {fileID: 6315058}
   finalScoreText: {fileID: 492176842}
   finalHighScoreText: {fileID: 481284249}
-  resumeButton: {fileID: 202946155}
-  pauseRestartButton: {fileID: 340479294}
-  pauseQuitButton: {fileID: 657536441}
   scoreChangedChannel: {fileID: 11400000, guid: a69d7da0849747c4c9449077083329c6, type: 2}
   highScoreUpdatedChannel: {fileID: 11400000, guid: 2db084a3c21f7004a83f1c62318ef0ce, type: 2}
   interactionPromptChannel: {fileID: 11400000, guid: e67814ccf1dbec341bed8fec1412a60f, type: 2}
@@ -9379,8 +9325,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CustomerWindow
   defaultPrompt: Interact
   windowIndex: 3
-  orderTitleText: {fileID: 0}
-  timerText: {fileID: 0}
   ingredientsContainer: {fileID: 930959358}
   ingredientIconPrefab: {fileID: 9211352961897018544, guid: 16674f5b30891b04587a8a0374041b9d, type: 3}
   scoreValue: {fileID: 1108331614}
@@ -9727,8 +9671,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CustomerWindow
   defaultPrompt: Interact
   windowIndex: 0
-  orderTitleText: {fileID: 0}
-  timerText: {fileID: 0}
   ingredientsContainer: {fileID: 415034772}
   ingredientIconPrefab: {fileID: 9211352961897018544, guid: 16674f5b30891b04587a8a0374041b9d, type: 3}
   scoreValue: {fileID: 231787248}

@@ -7,6 +7,8 @@ public class FridgeStation : BaseStation
     [SerializeField] private IngredientSO cheeseSO;
     [SerializeField] private IngredientSO meatSO;
 
+    [SerializeField] BoolEventChannelSO gamePausedEvent; //using this to restrict player movement
+
     public bool isUIOpen = false;
 
     public GameObject uiPanel;
@@ -33,6 +35,7 @@ public class FridgeStation : BaseStation
     {
         isUIOpen = true;
         uiPanel.SetActive(true);
+        gamePausedEvent?.Raise(isUIOpen);
     }
 
     public void SelectVegetable(PlayerInteraction player) => GiveIngredient(vegetableSO, player);
@@ -53,6 +56,7 @@ public class FridgeStation : BaseStation
     public void CloseFridgeUI()
     {
         isUIOpen = false;
+        gamePausedEvent?.Raise(isUIOpen);
         uiPanel.SetActive(false);
     }
 }
