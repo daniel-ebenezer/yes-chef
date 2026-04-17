@@ -26,6 +26,10 @@ One slightly annoying mistake in the game you might encounter is sometimes the r
 
 Object pooling for the ingredients.
 
+# Bug
+
+While testing in the morning, i figured i forgot to turn off the player movement in the start screen. So right now, you will be able to move the player around using WASD in the main menu. I've turned it off properly when in pause state and Fridge UI menu state. In case i dont fix it when you see the project, dont mind it please.
+
 # Links 
 
 itch.io (Playable in browser) - 
